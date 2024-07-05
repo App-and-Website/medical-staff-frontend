@@ -538,7 +538,7 @@ a, p, span, div, section, ul, li, ol{
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
-    color: #000;
+    color: var(--text-color-dark);
     border-bottom: 0px solid #FFF;
     font-family: var(--font-type-one);
     font-size: var(--font-size-medium);
@@ -597,6 +597,117 @@ a, p, span, div, section, ul, li, ol{
 /* =================  Tab section how we are ends  ================================= */
 
 
+/* =================  Recruitment Process section starts  ======================= */
+.recruitment_section{
+background: #ECECEC;
+}
+.recruitment_row{
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 40px 25px;
+}
+.recruitment_row_top{
+    position: relative;
+    z-index: 1;
+}
+.process_line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #f6f6f6;
+    width: 60%;
+    z-index: -1;
+}
+.wrap_process{
+    display: flex;
+    justify-content: center;
+}
+.icondiv{
+    background: #f6f6f6;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+}
+.icondiv img{
+    height: 50px;
+}
+.process_number{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: 500;
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-smallest);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #000;
+}
 
+.recruitment_item{
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+.recruitment_item h5, .recruitment_item p{
+    text-align: center;
+}
+.recruitment_item h5{
+    font-family: var(--font-type-one);
+    font-size: var(--large-font-size);
+    color: var(--text-grey-color);
+    font-weight: 600;
+}
+.recruitment_item p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-grey-color);
+}
 
-
+@media screen and (max-width: 1400px){
+    .padding_null_1400 {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 992px){
+    .recruitment_row{
+        display: grid;
+        grid-template-columns: 120px auto;
+    }
+    .process_line{
+        display: none;
+    }
+    .recruitment_row_top{
+        gap: 50px;
+    }
+    .recruitment_content_row{
+        gap: 40px;
+    }
+    .recruitment_item h5, .recruitment_item p{
+        text-align: left;
+    }
+}
+@media screen and (max-width: 576px){
+    .wrap_process{
+        margin-left: -20px;
+    }
+    .recruitment_row{
+        padding: 40px 10px;
+    }
+    .recruitment_row_top{
+        gap: 40px;
+    }
+    .recruitment_content_row{
+        gap: 20px;
+    }
+    .recruitment_item{
+        padding-top: 0;
+    } 
+}
