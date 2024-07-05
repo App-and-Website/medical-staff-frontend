@@ -10,6 +10,7 @@
   --font-size-small: 14px;
   --font-size-medium: 16px;
 
+  --large-font-size: 18px;
   --largeest-font-size:42px;
 
   --text-color-dark: #000;
@@ -496,6 +497,106 @@ a, p, span, div, section, ul, li, ol{
         margin-right: 60px;
     }
 }
+/* ====================== Accredation Licence css ends ========================= */
+
+
+/* =================  Tab section how we are starts  ================================= */
+.tab_section_home{
+    background: var(--primary-color);
+}
+.tab_section_header h5{
+   text-align: left;
+   color: #fff;
+   font-family: var(--font-type-one);
+   font-size: var(--large-font-size);
+}
+.tab_section_header h2{
+    text-align: left;
+    color: #fff;
+}
+
+.tabs {
+    width: 100%;
+}
+.tab-menu {
+    display: flex;
+    /* border-bottom: 2px solid #ccc; */
+    cursor: pointer;
+}
+.tab {
+    padding: 10px;
+    margin-right: 50px;
+    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid #FFF;
+    color: #fff;
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    font-weight: 600;
+}
+.tab.active {
+    background-image: url('assets/icons/active.png'); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    color: #000;
+    border-bottom: 0px solid #FFF;
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    font-weight: 600;
+}
+.tab-content {
+    display: none;
+    padding: 20px 0 0 0;
+}
+.tab-content.active {
+    display: block;
+}
+.tab_content_wrap{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 40px;
+}
+.tab_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.tab_text_content{
+    padding-top: 25px;
+}
+.tab_text_content p{
+    color: #fff;
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+}
+.check_list{
+    margin-top: 20px;
+}
+.check_list .list{
+    display: flex;
+    margin-top: 18px;
+}
+.check_list .list p{
+    font-size: var(--font-size-small);
+}
+.check_list img{
+    margin-top: 5px;
+    height: 14px;
+    margin-right: 5px;
+}
+@media screen and (max-width: 768px){
+    .tab_content_wrap{
+        grid-template-columns: 100%;
+    }
+}
+@media screen and (max-width: 576px){
+    .tab {
+        margin-right: 20px;
+    }
+}
+/* =================  Tab section how we are ends  ================================= */
+
+
 
 
 

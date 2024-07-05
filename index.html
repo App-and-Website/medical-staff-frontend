@@ -413,10 +413,114 @@
     <!-- =================  accredation section ends  ================================= -->
 
 
+    <!-- =================  Tab section how we are starts  ================================= -->
+    <section class="section_pd_tb tab_section_home">
+       <div class="container">
+        <div class="padding_added_row">
+            <div class="section_header mb-3 tab_section_header">
+                <h5>How We Are!</h5>
+                <h2>Reliable & Cost Efficient <br>
+                    Recruitment Agency</h2>
+            </div>
+            <div class="tabs">
+                <div class="tab-menu">
+                    <div class="tab" onclick="showContent('mission')">Our Mission</div>
+                    <div class="tab" onclick="showContent('services')">Services</div>
+                    <div class="tab" onclick="showContent('register')">Register</div>
+                </div>
+                <div class="tab-content" id="mission">
+                    <div class="tab_content_wrap">
+                        <div class="tab_image">
+                            <img src="assets/images/tab-mission.jpg" alt="Our Mission">
+                        </div>
+                        <div class="tab_text_content">
+                           <p>Let’s enable the discovery of opportunities by providing consistency superior solutions. To add value & respect individuality and diversity while growing.</p>
+                           <div class="check_list">
+                               <div class="list">
+                                   <img src="assets/icons/icon_check.png" alt="Check Icon">
+                                   <p>To add value for our clients & candidates</p>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="services">
+                    <div class="tab_content_wrap">
+                        <div class="tab_image">
+                            <img src="assets/images/tab-service.jpg" alt="Our Mission">
+                        </div>
+                        <div class="tab_text_content">
+                           <p>For any immediate or future staffing needs please contact our team today. We have many nursing staff available for day to day booking or for future advance booking to cover your roster.</p>
+                           <div class="check_list">
+                               <div class="list">
+                                   <img src="assets/icons/icon_check.png" alt="Check Icon">
+                                   <p>Call us on 1300 10 50 10 to speak with our friendly Allocations team who can assist you in finding experienced, motivated, and qualified Nursing / Healthcare staff to fit your needs.</p>
+                               </div>
+                               <div class="list">
+                                <img src="assets/icons/icon_check.png" alt="Check Icon">
+                                <p>If you are a current client, please feel free to call us 24/7 or make an online booking</p>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="register">
+                    <div class="tab_content_wrap">
+                        <div class="tab_image">
+                            <img src="assets/images/tab-register.jpg" alt="Our Mission">
+                        </div>
+                        <div class="tab_text_content">
+                           <p>Please feel free to contact us if you have any queries or to join Medical Staff Nursing Agency as a client. To request for more information about our services or registration please click on the link</p>
+                           <div class="check_list">
+                               <div class="list">
+                                   <img src="assets/icons/icon_check.png" alt="Check Icon">
+                                   <p>Call Medical Staff on 13000 10 50 10 to discuss your needs in detail with the relevant state manager.</p>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- =================  Tab section how we are ends  ================================= -->
+
 
     <div class="mt-5 pt-5"></div>
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Initially show the first tab
+    showContent('mission');
+});
+
+function showContent(tabId) {
+    // Hide all tab contents
+    var contents = document.querySelectorAll('.tab-content');
+    contents.forEach(function(content) {
+        content.classList.remove('active');
+    });
+
+    // Remove active class from all tabs
+    var tabs = document.querySelectorAll('.tab');
+    tabs.forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+
+    // Show the selected tab content
+    var activeContent = document.getElementById(tabId);
+    activeContent.classList.add('active');
+
+    // Add active class to the selected tab
+    var activeTab = document.querySelector('.tab[onclick="showContent(\'' + tabId + '\')"]');
+    activeTab.classList.add('active');
+}
+
+
+    </script>
 </body>
 </html>
