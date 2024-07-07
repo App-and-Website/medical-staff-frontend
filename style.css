@@ -17,6 +17,7 @@
   --text-grey-color: #363636;
 
   --primary-color: #0094db;
+  --primary-light-color: #80c9ed;
 }
 
 html{
@@ -39,7 +40,7 @@ a, p, span, div, section, ul, li, ol{
 .section_header h2{
     font-family: var(--font-type-one);
     color: #2F2F2F;
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 700;
 }
 .section_header span{
@@ -49,7 +50,7 @@ a, p, span, div, section, ul, li, ol{
 .section_header h3{
     font-family: var(--font-type-one);
     color: #2F2F2F;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 500;
 }
 .padding_added_row{
@@ -711,6 +712,8 @@ background: #ECECEC;
         padding-top: 0;
     } 
 }
+/* =================  Recruitment Process section ends  ======================= */
+
 
 /* =================  Testimonial section starts  ======================= */
 .testimonial_item{
@@ -771,6 +774,8 @@ background: #ECECEC;
     height: 30px;
     width: auto;
 }
+/* =================  Testimonial section ends  ======================= */
+
 
 /* =================  find jobs state section starts  =================================  */
 .job_state_item{
@@ -834,4 +839,48 @@ background: #ECECEC;
         margin-top: 5px;
     }
 }
+/* =================  find jobs state section ends  =================================  */
 
+
+/* =================  footer top section starts  =================================  */
+.footer_top_row{
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.footer_top_section .section_header{
+    margin-bottom: 0;
+}
+.footer_top_section .section_header h3{
+    text-align: left;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+.footer_top_buttom_main{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.footer_top_button a{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid var(--primary-light-color);
+    padding: 10px 16px;
+    border-radius: 2px;
+}
+@media screen and (max-width: 992px){
+    .footer_top_row{
+        padding: 40px 10px;
+    }
+    .footer_top_section .section_header h3{
+        text-align: center;
+    }
+    .footer_top_buttom_main{
+        justify-content: center;
+    }
+}
+/* =================  footer top section ends  =================================  */
