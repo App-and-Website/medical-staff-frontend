@@ -258,7 +258,7 @@ a, p, span, div, section, ul, li, ol{
     box-shadow: 0 0 0 .1rem;
 }
 .header_buttons .button:hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 @media screen and (max-width: 1200px){
     .navbar_ul li a{
@@ -536,6 +536,9 @@ a, p, span, div, section, ul, li, ol{
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+ .discover_section_buttons .button_2:hover{
+    opacity: 0.8;
  }
  .discover_section_buttons .button_2 a{
      font-family: var(--font-type-one);
@@ -990,7 +993,7 @@ background: #ECECEC;
     padding: 14px 150px;
 }
 .jobs_by_region_button a:hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 @media screen and (max-width: 768px){
     .jobs_by_region_button a{
