@@ -189,6 +189,8 @@ a, p, span, div, section, ul, li, ol{
 /* ====================== Header css starts ========================= */
 .header_section{
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    position: relative;
+    z-index: 100!important;
 }
 .navbar_custom .header_logo img{
    height: 85px;
@@ -272,17 +274,21 @@ a, p, span, div, section, ul, li, ol{
         padding-bottom: 25px;
     }
 }
+
 /* ====================== Header css ends ========================= */
 
 
 /* ====================== Hero css starts ========================= */
+.hero_section{
+    position: relative;
+}
 .job_search_hero_main{
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 450px;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%, -55%);
     z-index: 2;
 }
 .hero_content{
@@ -355,19 +361,11 @@ a, p, span, div, section, ul, li, ol{
     display: none;
 }
 @media screen and (max-width: 1200px){
-    .job_search_hero_main{
-        top: 320px;
-        transform: translate(-50%);
-    }
     .hero_content{
         width: 780px;
     }
 }
 @media screen and (max-width: 992px){
-    .job_search_hero_main{
-        top: 280px;
-        transform: translate(-50%);
-    }
     .hero_content{
         width: 100vw;
     }
@@ -376,9 +374,9 @@ a, p, span, div, section, ul, li, ol{
     .job_search_hero_main_text{
         display: flex;
         position: absolute;
-        top: 280px;
+        top: 50%;
         left: 50%;
-        transform: translate(-50%);
+        transform: translate(-50%, -50%);
         z-index: 2;
     }
     .job_search_hero_main .hero_header{
@@ -397,7 +395,7 @@ a, p, span, div, section, ul, li, ol{
         display: flex;
         justify-content: center;
         position: relative;
-        top: 0;
+        top: 47px;
         background: var(--primary-color);
         padding-bottom: 20px;
     }
@@ -406,9 +404,9 @@ a, p, span, div, section, ul, li, ol{
     .job_search_hero_main_text{
         display: flex;
         position: absolute;
-        top: 240px;
+        top: 40%;
         left: 50%;
-        transform: translate(-50%);
+        transform: translate(-50%, -40%);
         z-index: 2;
     }
     .hero_content .hero_header h2{
