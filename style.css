@@ -34,7 +34,7 @@ a, p, span, div, section, ul, li, ol{
 
 .section_header{
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .section_header h2{
     font-family: var(--font-type-one);
@@ -271,7 +271,7 @@ a, p, span, div, section, ul, li, ol{
     position: relative;
     overflow: hidden;
     border-radius: 6px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 .service_title{
     position: absolute;
@@ -770,5 +770,68 @@ background: #ECECEC;
 .testimonial_item .stars img{
     height: 30px;
     width: auto;
+}
+
+/* =================  find jobs state section starts  =================================  */
+.job_state_item{
+    margin-bottom: 25px;
+}
+.job_state_item_wrap{
+    /* max-height: 200px; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.job_state_title{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+.job_state_title h5{
+    font-family: var(--font-type-one);
+    font-size: var(--large-font-size);
+}
+.job_state_title a{
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 3px 3px 15px #000;
+}
+.job_state_title p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
+    margin-top: -10px;
+}
+.job_state_item_wrap img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.jobs_by_region_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.jobs_by_region_button a{
+    background: var(--primary-color);
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 150px;
+}
+@media screen and (max-width: 768px){
+    .jobs_by_region_button a{
+        padding: 10px 50px;
+    }
+    .job_state_title h5{
+        font-size: var(--font-size-small);
+    }
+    .job_state_title p{
+        font-size: var(--font-size-smallest);
+    }
+    .jobs_by_region_button{
+        margin-top: 5px;
+    }
 }
 
