@@ -82,6 +82,8 @@ a, p, span, div, section, ul, li, ol{
         margin-bottom: 40px;
     }
 }
+
+
 /* ====================== topbar css starts ========================= */
 .topbar{
     padding: 10px 0;
@@ -127,6 +129,9 @@ a, p, span, div, section, ul, li, ol{
     color: var(--text-color-dark);
     text-decoration: none;
 }
+.topbar_left a:hover{
+   color: var(--text-grey-color);
+}
 
 .topbar_right_main{
     display: flex;
@@ -147,6 +152,9 @@ a, p, span, div, section, ul, li, ol{
    height: 24px;
    margin-left:6px;
 }
+.topbar_right .social_icons img:hover{
+    opacity: 0.8;
+ }
 .topbar_right .social_icons img.linkedin_icon{
     height: 22px;
  }
@@ -206,6 +214,8 @@ a, p, span, div, section, ul, li, ol{
 }
 .navbar_ul li ul li a{
     padding: 10px;
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
     font-weight: 400!important;
     color: var(--text-grey-color)!important;
 }
@@ -244,6 +254,9 @@ a, p, span, div, section, ul, li, ol{
     text-decoration: none;
     outline: 0;
     box-shadow: 0 0 0 .1rem;
+}
+.header_buttons .button:hover{
+    opacity: 0.9;
 }
 @media screen and (max-width: 1200px){
     .navbar_ul li a{
@@ -295,6 +308,10 @@ a, p, span, div, section, ul, li, ol{
    width: 100%;
    object-fit: cover;
    transform: scale(1.1);
+   transition: all 0.2s ease-in-out;
+}
+.service_item:hover img{
+    transform: scale(1.2);
 }
 @media screen and (max-width: 1200px){
     .services_row{
@@ -811,7 +828,11 @@ background: #ECECEC;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all 0.2s ease-in-out;
 }
+ .job_state_item_wrap:hover img{
+     transform: scale(1.1);
+ }
 .jobs_by_region_button{
     display: flex;
     justify-content: center;
@@ -824,6 +845,9 @@ background: #ECECEC;
     color: #fff;
     text-decoration: none;
     padding: 14px 150px;
+}
+.jobs_by_region_button a:hover{
+    opacity: 0.9;
 }
 @media screen and (max-width: 768px){
     .jobs_by_region_button a{
@@ -872,6 +896,9 @@ background: #ECECEC;
     padding: 10px 16px;
     border-radius: 2px;
 }
+.footer_top_button a:hover{
+    color: #ddd;
+}
 @media screen and (max-width: 992px){
     .footer_top_row{
         padding: 40px 10px;
@@ -911,10 +938,13 @@ background: #ECECEC;
 .footer_item .contact_links a{
     font-family: var(--font-type-one);
     font-size: var(--font-size-medium);
-    color: #fff;
+    color: #f6f6f6;
     font-weight: 300;
     text-decoration: none;
     margin-top: 10px;
+}
+.footer_item .contact_links a:hover{
+    color: #ccc;
 }
 .quick_links_main{
     background: #19222e;
@@ -930,10 +960,13 @@ background: #ECECEC;
 .footer_item .quick_links a{
     font-family: var(--font-type-one);
     font-size: var(--font-size-medium);
-    color: #fff;
+    color: #f6f6f6;
     font-weight: 300;
     text-decoration: none;
     margin-top: 10px;
+}
+.footer_item .quick_links a:hover{
+   color: #ccc;
 }
 @media screen and (max-width: 992px){
     .quick_links_main{
@@ -983,6 +1016,9 @@ background: #ECECEC;
     font-family: var(--font-type-one);
     font-size: var(--font-size-small);
     color: var(--primary-color);
+}
+.footer_bottom_section .topbar_left a:hover{
+    opacity: 0.8;
 }
 @media screen and (max-width: 768px){
     .footer_bottom_section .topbar_right_main{
