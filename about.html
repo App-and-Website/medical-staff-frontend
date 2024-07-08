@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Staff</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- google font inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- owl carasoul -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- =================  topbar section starts  ================================= -->
+    <section>
+        <div class="topbar">
+            <div class="container">
+                <div class="row topbar_row">
+                    <div class="col-lg-6 col-md-8 col-6 topbar_left_main">
+                       <div class="topbar_left">
+                           <div class="topbar_phone">
+                                <div class="phone_icon">
+                                    <img src="assets/icons/phone_icon.png" alt="">
+                                </div>
+                                <div class="phone_text">
+                                    <p>Call us 24/7 on</p>
+                                    <a href="tel:1300105010">1300 10 50 10</a>
+                                </div>
+                           </div>
+                           <div class="topbar_mail">
+                            <div class="mail_icon">
+                                <img src="assets/icons/mail_icon.png" alt="">
+                            </div>
+                            <div class="mail_text">
+                                <a href="mailto:join@medicalstaff.com.au">join@medicalstaff.com.au</a>
+                            </div> 
+                           </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-6 topbar_right_main">
+                        <div class="topbar_right">
+                            <p>Follow us:</p>
+                            <div class="social_icons">
+                                <a href="https://www.instagram.com/medicalstaffagency/"><img src="assets/icons/inatagram_icon.png" alt="instagram"></a>
+                                <a href="https://www.facebook.com/medicalstaffagency"><img src="assets/icons/facebook_icon.png" alt="facebook"></a>
+                                <a href="https://www.linkedin.com/company/medical-staff/"><img src="assets/icons/linkedin_icon.png" alt="linkedin" class="linkedin_icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================  topbar section ends  ================================= -->
+
+
+    <!-- =================  header section starts  ================================= -->
+    <section class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light navbar_custom">
+                <div class="container-fluid p-0">
+                  <a class="navbar-brand header_logo" href="index.html">
+                      <img src="assets/images/medical-staff-logo.png" alt="logo">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse navbar_collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar_ul">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Recruitment
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Find Jobs</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Registered Nurses & Midwives</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Aged Care</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Eductaion and Training</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Disability/NDIS</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Expectations</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Referral Bonus</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Work and Holiday Nursing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Client Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Breaking News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                    <div class="header_buttons">
+                        <div class="button">
+                            <a href="">Netbook Login</a>
+                        </div>
+                        <div class="button">
+                            <a href="">Apply Now</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <!-- =================  header section ends  ================================= -->
+
+
+    <!-- =================  breadcrumb section starts  ================================= -->
+    <section class="breadcrumb_section">
+        <div class="image">
+            <img src="assets/images/breadcrumbs/about-page.jpg" alt="breadcrumb">
+        </div>
+    </section>
+    <!-- =================  breadcrumb section ends  ================================= -->
+
+
+    <!-- =================  About introduction section starts  ================================= -->
+    <section class="section_pd_tb">
+        <div class="container">
+            <div class="section_header">
+                <h2><span>Medical Staff</span></h2>
+                <h3>About US</span></h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <p>
+                        Welcome to Medical Staff, a leading medical and nursing employment agency with offices throughout Australia. We specialise in placing 
+                        registered nurses, midwives, and ENs in both private and public hospitals. Our ISO 9001 accreditation and preferred supplier agreements 
+                        with hospitals make us a trusted partner for clients and job seekers alike.
+                    </p>
+                </div>
+                <div class="col-lg-8 about_items about_item1">
+                    <p>
+                        We understand that finding the right job can be challenging, which is why we offer a wide range of work opportunities in both public and private hospitals across Australia. As equal opportunity employers, we welcome nurses from diverse backgrounds to apply. Whether you're a backpacker nurse on a work and holiday visa or a student nurse looking for part-time work, we have opportunities for you. For those seeking sponsorship, Medical Staff is approved to sponsor nurses (Conditions Apply).
+                        <br><br>
+                        Our unique selling proposition lies in our personalized approach to staffing. We believe in getting to know our clients and candidates on a personal level to ensure the best fit for all parties involved. But don't just take our word for it! Our satisfied clients and employees have shared their experiences with us through testimonials, which you can read on our website
+                    </p>
+                </div>
+                <div class="col-lg-4 about_items">
+                    <div class="image">
+                        <img src="assets/images/about-us.jpg" alt="about us">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================  About introduction section ends  ================================= -->
+
+
+    <!-- =================  Our Story section starts  ================================= -->
+    <section class="our_story_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 section_pd_tb story_left">
+                    <div class="wrapper">
+                        <div class="section_header mb-0">
+                            <h3 style="text-align: left;">Our <span>Story</span></h3>
+                        </div>
+                        <p>
+                            Our story began with a passion for providing highly skilled, talented, and specialised nurses to national hospitals around Australia. At Medical Staff, we're committed to finding the best match for our clients and employees. Our dedicated team of professionals work tirelessly to ensure that we provide a high-quality service that meets our clients' needs and expectations.
+                        </p>
+                        <div class="accredation_row accredation_row2">
+                            <div class="accredation_item">
+                                <div class="accr_image">
+                                    <img src="assets/images/accredation-licence/accr3.png" alt="Accreditation - Licence">
+                                </div>
+                            </div>
+                            <div class="accredation_item">
+                                <div class="accr_image">
+                                    <img src="assets/images/medical-staff-logo.png" alt="Accreditation - Licence">
+                                </div>
+                            </div>
+                            <div class="accredation_item">
+                                <div class="accr_image">
+                                    <img src="assets/images/accredation-licence/accr4.png" alt="Accreditation - Licence">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-5 story_image">
+                    <div class="image">
+                        <img src="assets/images/our-story.jpg" alt="our story">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================= Our Story section ends  ================================= -->
+
+
+    <!-- =================  accredation section starts  ================================= -->
+     <section class="section_pd_tb">
+        <div class="container">
+            <div class="section_header">
+                <h2><span>Accredation</span> - Licence</h2>
+            </div>
+            <div class="padding_added_row accredation_row">
+                <div class="accredation_item">
+                    <div class="accr_image">
+                        <img src="assets/images/accredation-licence/accr1.png" alt="Accreditation - Licence">
+                    </div>
+                </div>
+                <div class="accredation_item">
+                    <div class="accr_image">
+                        <img src="assets/images/accredation-licence/accr2.png" alt="Accreditation - Licence">
+                    </div>
+                </div>
+                <div class="accredation_item">
+                    <div class="accr_image">
+                        <img src="assets/images/accredation-licence/accr3.png" alt="Accreditation - Licence">
+                    </div>
+                </div>
+                <div class="accredation_item">
+                    <div class="accr_image">
+                        <img src="assets/images/accredation-licence/accr4.png" alt="Accreditation - Licence">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- =================  accredation section ends  ================================= -->
+
+
+    <!-- =================  find jobs state section starts  ================================= -->
+    <section class="section_pd_tb pt-0 pt-lg-4">
+        <div class="container">
+            <div class="section_header">
+                <h3>Finds Jobs In <span>All State</span></h3>
+                <h2>Jobs Available In Different States</span></h2>
+            </div>
+            <div class="row jobs_state_row padding_added_row">
+                <div class="col-lg-4 col-md-4 col-6 job_state_item">
+                    <div class="job_state_item_wrap">
+                        <a href="#">
+                            <img src="assets/images/job-states/new-south-wales.jpg" alt="New South Wales">
+                        </a>
+                        <div class="job_state_title">
+                            <h5><a href="">New South Wales</a></h5>
+                            <p><a href="">2 jobs open</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 job_state_item">
+                    <div class="job_state_item_wrap">
+                        <a href="#">
+                            <img src="assets/images/job-states/queensland.jpg" alt="Queensland">
+                        </a>
+                        <div class="job_state_title">
+                            <h5><a href="">Queensland</a></h5>
+                            <p><a href="">2 jobs open</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 job_state_item">
+                    <div class="job_state_item_wrap">
+                        <a href="#">
+                            <img src="assets/images/job-states/victoria.jpg" alt="Victoria">
+                        </a>
+                        <div class="job_state_title">
+                            <h5><a href="">Victoria</a></h5>
+                            <p><a href="">2 jobs open</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 job_state_item">
+                    <div class="job_state_item_wrap">
+                        <a href="#">
+                            <img src="assets/images/job-states/south-wales.jpg" alt="South Australia">
+                        </a>
+                        <div class="job_state_title">
+                            <h5><a href="">South Australia</a></h5>
+                            <p><a href="">2 jobs open</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 job_state_item">
+                    <div class="job_state_item_wrap">
+                        <a href="#">
+                            <img src="assets/images/job-states/western-australia.jpg" alt="New South Wales">
+                        </a>
+                        <div class="job_state_title">
+                            <h5><a href="">Western Australia</a></h5>
+                            <p><a href="">2 jobs open</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-6 job_state_item">
+                    <div class="job_state_item_wrap">
+                        <a href="#">
+                            <img src="assets/images/job-states/northern-territory.jpg" alt="New South Wales">
+                        </a>
+                        <div class="job_state_title">
+                            <h5><a href="">Northern Territory/Tasmania</a></h5>
+                            <p><a href="">2 jobs open</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jobs_by_region_button">
+                <a href="">Find Jobs By Region</a>
+            </div>
+        </div>
+    </section>
+    <!-- =================  find jobs state section ends  ================================= -->
+
+
+    <!-- =================  footer top section starts  ================================= -->
+    <section class="footer_top_section footer_top_row mt-4">
+        <div class="container">
+            <div class="jobs_state_row padding_added_row">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-12">
+                        <div class="section_header">
+                            <h3>Hire The Best With Medical Staff</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 footer_top_buttom_main">
+                        <div class="footer_top_button">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- =================  footer top section ends  ================================= -->
+
+    
+    <!-- =================  footer section starts  ================================= -->
+    <section class="footer_section section_pd_tb">
+        <div class="container">
+            <div class="padding_added_row">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 footer_item_mian">
+                        <div class="footer_item">
+                            <h5>We work Nationally</h5>
+                            <div class="footer_map">
+                                <img src="assets/images/map.png" alt="Map">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 footer_item_mian">
+                        <div class="footer_item">
+                            <h5>Contact Us</h5>
+                            <div class="contact_links">
+                                <a href="mailto:join@medicalstaf.com.au">E: join@medicalstaf.com.au</a>
+                                <a href="tel:1300105010">P: 1300 105010</a>
+                                <a href="#">A: PO Box 1444, Lane Cove <br> NSW 1595</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 quick_links_main footer_item_mian">
+                        <div class="footer_item">
+                            <h5>Quick Links</h5>
+                            <div class="quick_links">
+                                <a href="">Why become an agency Nurse</a>
+                                <a href="">Education and Training</a>
+                                <a href="">Privacy Policy</a>
+                                <a href="">Referral Bonus</a>
+                                <a href="">Useful Links</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- =================  footer section ends  ================================= -->
+
+
+    <!-- =================  footer bottom section starts (topbar reused)  ================================= -->
+    <section class="footer_bottom_section">
+        <div class="container">
+            <div class="row padding_added_row topbar_row">
+                <div class="col-lg-8 col-md-8 col-12 topbar_left_main">
+                   <div class="topbar_left">
+                       <span>Copyright © 2024 Medical Staff. All rights reserved.</span>
+                       <span>Developed by: <a href="https://appandwebsite.au/" target="_blank">App and Website Pty Ltd</a></span>
+                   </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 topbar_right_main">
+                    <div class="topbar_right">
+                        <p>Follow us:</p>
+                        <div class="social_icons">
+                            <a href="https://www.instagram.com/medicalstaffagency/"><img src="assets/icons/inatagram_icon.png" alt="instagram"></a>
+                            <a href="https://www.facebook.com/medicalstaffagency"><img src="assets/icons/facebook_icon.png" alt="facebook"></a>
+                            <a href="https://www.linkedin.com/company/medical-staff/"><img src="assets/icons/linkedin_icon.png" alt="linkedin" class="linkedin_icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =================  footer bottom section ends  ================================= -->
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl carasoul js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- tab section js -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initially show the first tab
+            showContent('mission');
+        });
+        
+        function showContent(tabId) {
+            // Hide all tab contents
+            var contents = document.querySelectorAll('.tab-content');
+            contents.forEach(function(content) {
+                content.classList.remove('active');
+            });
+        
+            // Remove active class from all tabs
+            var tabs = document.querySelectorAll('.tab');
+            tabs.forEach(function(tab) {
+                tab.classList.remove('active');
+            });
+        
+            // Show the selected tab content
+            var activeContent = document.getElementById(tabId);
+            activeContent.classList.add('active');
+        
+            // Add active class to the selected tab
+            var activeTab = document.querySelector('.tab[onclick="showContent(\'' + tabId + '\')"]');
+            activeTab.classList.add('active');
+        }
+    </script>
+
+    <!-- testimonial owl carasoul -->
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:false,
+                margin: 30,
+                nav:false,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            })
+        });
+    </script>
+
+</body>
+</html>

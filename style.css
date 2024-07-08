@@ -1195,3 +1195,62 @@ background: #ECECEC;
     }
 }
 /* =================  footer bottom section ends  =================================  */
+
+.breadcrumb_section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* =================  About Page css starts  ================================= 
+==================================================================================== */
+.about_items{
+    margin-top: 20px;
+}
+.about_item1{
+    display: flex;
+    align-items: center;
+}
+
+.our_story_section{
+    background: #F6F6F6;
+    position: relative;
+}
+.story_image{
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+/* .story_image .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+.story_left{
+padding-right: 80px;
+}
+.story_left p{
+    margin-top: 25px;
+}
+.accredation_row2{
+   margin-top: 50px;
+}
+.accredation_row2 .accredation_item{
+    display: flex;
+    justify-content: flex-start;
+}
+.accredation_row2 .accredation_item img{ 
+    max-height: 100px;
+}
+
+
