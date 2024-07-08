@@ -1147,6 +1147,14 @@ background: #ECECEC;
     .footer_item .contact_links{
         margin-top: 5px;
     }
+    .footer_item h5{
+        text-align: center;
+    }
+    .footer_item_mian{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
 /* =================  footer section ends  =================================  */
 
@@ -1175,9 +1183,12 @@ background: #ECECEC;
     opacity: 0.8;
 }
 @media screen and (max-width: 768px){
+    .footer_bottom_section .topbar_left span{
+        text-align: center;
+    }
     .footer_bottom_section .topbar_right_main{
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
     }
     .footer_bottom_section .topbar_right_main .topbar_right{
         display: flex;
