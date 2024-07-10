@@ -1235,7 +1235,7 @@ background: #ECECEC;
     padding-right: 180px;
 }
 .story_left{
-    padding-left: 16vw;
+    padding-left: 22vw;
 }
 .story_left p{
     font-family: var(--font-type-one);
@@ -1270,25 +1270,25 @@ background: #ECECEC;
 
 @media screen and (max-width: 1600px){
 .story_left{
-    padding-left: 10vw;
+    padding-left: 16vw;
 }
 }
 @media screen and (max-width: 1420px){
     .story_left{
-        padding-left: 5vw;
+        padding-left: 12vw;
     }
 }
 @media screen and (max-width: 1400px){
     .story_left{
-        padding-left: 8vw;
+        padding-left: 18vw;
     }
 }
 @media screen and (max-width: 1300px){
     .story_left{
-        padding-left: 6vw;
+        padding-left: 16vw;
     }
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1200px){
     .story_left{
         padding-left: 140px;
         padding-right: 140px;
