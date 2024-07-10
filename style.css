@@ -1324,3 +1324,83 @@ background: #ECECEC;
         margin-bottom: 40px;
     }
 }
+
+
+.contact_us_section{
+    background-color: #F6F6F6;
+}
+.contact_text_main{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-grey-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wrapper_contact_left{
+    padding-right: 40px;
+}
+.contact_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+.contact_item .icon{
+   width: 50px;
+   height: 50px;
+   background: var(--primary-color);
+   padding: 12px;
+   border-radius: 4px;
+   margin-right: 12px;
+}
+.contact_item .icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+ }
+.contact_item p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-dark-color);
+    font-weight: 600;
+}
+.contact_item a{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
+    color: var(--text-grey-color);
+    text-decoration: none;
+}
+.contact_item a:hover{
+    color: var(--primary-color);
+}
+.contact_list{
+    margin-top: 30px;
+}
+
+.contact_form_right{
+  background: #fff;
+  padding: 25px;
+  height: fit-content;
+}
+.contact_form_right button{
+    width: 100%;
+    padding: 10px 0;
+    background: var(--primary-color);
+}
+.contact_form_right button:hover{
+    background: var(--primary-light-color);
+}
+.contact_form_right input{
+    padding: 15px;
+}
+@media screen and (max-width: 576px){
+    .wrapper_contact_left{
+        padding-right: 0px;
+    }
+}
+/* =================  About Page css ends  ================================= 
+==================================================================================== */
+
+
+
