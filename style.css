@@ -1404,7 +1404,7 @@ background: #ECECEC;
 ==================================================================================== */
 
 
-/* =================  Wor holiday Page css starts  ================================= 
+/* =================  Work holiday Page css starts  ================================= 
 ==================================================================================== */
 .work_holiday_text p{
     font-family: var(--font-type-one);
@@ -1463,3 +1463,39 @@ background: #ECECEC;
         margin: 0 5px;
     }
 }
+/* =================  Work holiday Page ends starts  ================================= 
+==================================================================================== */
+
+
+/* =================  Client Services Page css starts  ================================= 
+==================================================================================== */
+.nationwide_section{
+    background: #b8e1f5;
+}
+.nationwide_row{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.nationwide_row .section_header{
+    padding-right: 120px;
+    border-right: 1px solid #666;
+}
+.nationwide_row .section_header h3{
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+}
+.nationwide_row .section_header h2{
+    text-align: left;
+}
+.nationwide_section .header_text p{
+    padding-left: 80px;
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-dark-color);
+}
+
+
+
+
