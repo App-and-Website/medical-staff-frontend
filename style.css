@@ -1784,6 +1784,84 @@ background: #ECECEC;
 ==================================================================================== */
 
 
+
+/* =================  Blog Single Page css starts  ================================= 
+==================================================================================== */
+.blog_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.wrap_blog_details .blog_image{
+    margin-bottom: 20px;
+}
+.wrap_blog_details .date{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
+    color: var(--text-grey-color);
+}
+.wrap_blog_details .blog_title{
+    font-family: var(--font-type-one);
+    color: var(--text-color-dark);
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sidebar_wrap{
+    background: #f3f3f3;
+    padding: 40px 25px;
+    border-radius: 4px;
+}
+.sidebar_post_item{
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 16px;
+    align-items: center;
+    margin-top: 25px;
+}
+.sidebar_post_item .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2px;
+}
+.sidebar_title h5{
+    font-family: var(--font-type-one);
+    color: var(--text-dark-color);
+}
+.sidebar_post_content p a{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-dark-color);
+    text-decoration: none;
+}
+.sidebar_post_content p a:hover{
+    color: var(--primary-color);
+}
+.sidebar_post_item img:hover{
+    opacity: 0.8;
+}
+.sidebar_post_content span{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
+    color: #888;
+}
+@media screen and (max-width: 992px){
+.sidebar_wrap{
+    margin-top: 50px;
+}
+}
+@media screen and (max-width: 576px){
+    .wrap_blog_details .blog_title{
+        font-size: 28px;
+    }
+}
+/* =================  Blog Single Page css ends  ================================= 
+==================================================================================== */
+
+
+
 /* =================  Contact Page css starts  ================================= 
 ==================================================================================== */
 .locations_main{
