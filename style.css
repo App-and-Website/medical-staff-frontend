@@ -1721,8 +1721,70 @@ background: #ECECEC;
 ==================================================================================== */
 
 
+/* =================  Breaking News Blog Page css starts  ================================= 
+==================================================================================== */
+.blog_item{
+    margin-bottom: 25px;
+}
+.blog_item_wrap{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  
+    border-radius: 2px;
+    overflow: hidden;
+}
+.blog_contents_wrap{
+    padding: 16px 16px 30px 16px;
+}
+.blog_item_wrap img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.blog_meta span{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
+    color: var(--text-grey-color);
+}
+.Blog_title h5{
+    margin-top: 10px;
+}
+.Blog_title h5 a{
+    font-family: var(--font-type-one);
+    color: var(--text-color-dark);
+    text-decoration: none;
+}
+.Blog_title h5 a:hover{
+    color: var(--primary-color);
+}
+.blog_details p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
+    color: var(--text-grey-color);
+}
+.read_more_button{
+    margin-top: 20px;
+}
+.read_more_button a{
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    padding: 8px 18px;
+    color: #fff;
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
+    text-decoration: none;
+}
+.read_more_button a:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width: 576px){
+    .Blog_title h5 a{
+        font-size: var(--large-font-size);
+    }
+}
+/* =================  Breaking News Blog Page css ends  ================================= 
+==================================================================================== */
 
-/* =================  Contact Page css ends  ================================= 
+
+/* =================  Contact Page css starts  ================================= 
 ==================================================================================== */
 .locations_main{
     display: grid;
@@ -1768,4 +1830,5 @@ background: #ECECEC;
         grid-template-columns: auto;
     }
 }
-
+/* =================  Contact Page css ends  ================================= 
+==================================================================================== */
