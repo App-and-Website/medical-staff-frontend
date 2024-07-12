@@ -1722,5 +1722,50 @@ background: #ECECEC;
 
 
 
-
+/* =================  Contact Page css ends  ================================= 
+==================================================================================== */
+.locations_main{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 30px;
+}
+.location_item{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 2px;
+}
+.location_item iframe{
+    width: 100%;
+    height: 100%;
+}
+.location_item h3{
+    margin-top: 25px;
+    padding: 0 16px;
+}
+.location_details{
+    padding: 16px;
+}
+.location_detail_item{
+    display: flex;
+    margin-bottom: 10px;
+}
+.location_detail_item img{
+    height: 14px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.location_detail_item p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-small);
+    color: var(--text-grey-color);
+}
+@media screen and (max-width: 1200px){
+    .locations_main{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .locations_main{
+        grid-template-columns: auto;
+    }
+}
 
