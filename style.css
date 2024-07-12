@@ -25,6 +25,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    font-family: var(--font-type-one);
+}
+
 a, p, span, div, section, ul, li, ol{
     margin: 0;
     padding: 0;
@@ -1575,6 +1579,85 @@ background: #ECECEC;
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.mss_top_text p{
+    font-family: var(--font-type-one);
+    color: var(--text-color-dark);
+    text-align: center;
+}
+.mss_service_list{
+    margin-top: 80px;
+}
+.mss_service_list h3{
+    text-align: center;
+    font-family: var(--font-type-one);
+    margin-bottom: 20px;
+}
+.mss_list{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 25px;
+    margin-top: 20px;
+}
+.mss_list_item{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.mss_list_item img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.mss_list_item p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-color-dark);
+}
+.mss_list_item a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.mss_list_item a:hover{
+    color: var(--primary-light-color);
+}
+.centered_para_div{
+    margin-top: 80px;
+}
+.centered_para_div h3{
+    text-align: center;
+}
+.centered_para_div p{
+    margin-top: 25px;
+    text-align: center;
+    color: var(--text-color-dark);
+}
+.centered_para_div a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.centered_para_div a:hover{
+    color: var(--primary-light-color);
+}
+.small_cta_section{
+    background: var(--primary-color);
+}
+.small_cta_section h4{
+    font-family: var(--font-type-one);
+    color: #fff;
+    font-weight: 600;
+}
+.small_cta_section h4 span{
+    text-decoration: underline;
+}
+.call_button{
+    display: flex;
+    align-items: center;
+}
+.call_button a{
+    height: 40px;
+}
+
 @media screen and (max-width: 1200px){
     .n_item_left .n_text_content .n_list p{
         font-size: var(--font-size-medium);
@@ -1619,10 +1702,21 @@ background: #ECECEC;
         gap: 15px;
      }
 }
-
-
-
-
+@media screen and (max-width: 768px){
+    .small_cta_section h4{
+        text-align: center;
+        font-size: 18px;
+    }
+    .mss_list{
+        grid-template-columns: 100%;
+    }
+    .small_cta_row{
+        padding: 0;
+    }
+    .mss_list .mss_list1, .mss_list .mss_list2{
+        padding-left: 6%;
+    }
+}
 /* =================  Client Services Page css ends  ================================= 
 ==================================================================================== */
 
