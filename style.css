@@ -88,7 +88,16 @@ a, p, span, div, section, ul, li, ol{
         margin-bottom: 40px;
     }
 }
-
+.stickycustom {
+    position: fixed!important;
+    top: 0!important;
+    width: 100%!important;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)!important;
+}
+.stickycustom .header_logo img{
+    height: 70px!important;
+}
 
 /* ====================== topbar css starts ========================= */
 .topbar{

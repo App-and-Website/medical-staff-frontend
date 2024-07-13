@@ -70,7 +70,7 @@
 
 
     <!-- =================  header section starts  ================================= -->
-    <section class="header_section">
+    <section class="header_section stickytopcustom">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light navbar_custom">
                 <div class="container-fluid p-0">
@@ -946,6 +946,22 @@
                     }
                 }
             })
+        });
+    </script>
+
+    <!-- js for making header sticky top -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var stickyElement = document.querySelector('.stickytopcustom');
+            var stickyOffset = stickyElement.offsetTop;
+        
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > stickyOffset) {
+                    stickyElement.classList.add('stickycustom');
+                } else {
+                    stickyElement.classList.remove('stickycustom');
+                }
+            });
         });
     </script>
 
