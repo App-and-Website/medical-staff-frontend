@@ -1432,6 +1432,15 @@ background: #ECECEC;
     font-size: var(--font-size-medium);
     color:#fff;
 }
+.small_cta_row p a{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color:#fff;
+    text-decoration: none;
+}
+.small_cta_row p a:hover{
+    opacity: 0.8;
+}
 .small_cta_row .call_button{
     display: flex;
     justify-content: flex-end;
@@ -1910,3 +1919,26 @@ background: #ECECEC;
 }
 /* =================  Contact Page css ends  ================================= 
 ==================================================================================== */
+
+
+/* =================  Recruitment Page css starts  ================================= 
+==================================================================================== */
+.full_bg_info_section{
+    background: var(--primary-color);
+    color: #fff;
+}
+.full_bg_info_section h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px){
+    .full_bg_info_section h3{
+        font-size: var(--large-font-size2);
+    }
+    .recruit_cta .small_cta_row{
+        padding: 20px 0px;
+    }
+}
+/* =================  Recruitment Page css ends  ================================= 
+==================================================================================== */
+
