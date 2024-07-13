@@ -1241,7 +1241,7 @@ background: #ECECEC;
     line-height: 20px;
 }
 .about_item1 p{
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 .our_story_section{
@@ -1341,6 +1341,9 @@ background: #ECECEC;
     }
     .our_story_section{
         margin-bottom: 40px;
+    }
+    .about_item1 p{
+        padding-right: 0px;
     }
 }
 
