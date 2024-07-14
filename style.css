@@ -2063,7 +2063,7 @@ background: #ECECEC;
 ==================================================================================== */
 
 
-/* ================= Eductaion and Training Page css ends  ================================= 
+/* ================= Eductaion and Training Page css starts  ================================= 
 ==================================================================================== */
 .iso_section_row .image{
     margin-top: 60px;
@@ -2087,4 +2087,44 @@ background: #ECECEC;
         margin-top: 30px;
     }
 }
+/* ================= Eductaion and Training Page css ends  ================================= 
+==================================================================================== */
+
+
+/* ================= Expectation Page css starts  ================================= 
+==================================================================================== */
+.expectation_item{
+    background: #f3f3f3;
+    margin-top: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+}
+.exp_content{
+    padding: 25px;
+}
+.exp_image{
+    height: 100%;
+    width: 100%;
+}
+.exp_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.exp_content_wrap h5{
+    font-weight: 600;
+}
+.expectation_row.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 20px;
+}
+@media screen and (max-width: 768px){
+    .expectation_row.reverse{
+        padding-left: 0px;
+    }
+}
+/* ================= Expectation Page css ends  ================================= 
+==================================================================================== */
 
