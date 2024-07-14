@@ -56,7 +56,7 @@ a, p, span, div, section, ul, li, ol{
     font-family: var(--font-type-one);
     color: #2F2F2F;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .padding_added_row{
     padding: 0 120px;
@@ -1956,4 +1956,110 @@ background: #ECECEC;
 }
 /* =================  Recruitment Page css ends  ================================= 
 ==================================================================================== */
+
+
+
+/* =================  Registered Nurses and Midwives Page css starts  ================================= 
+==================================================================================== */
+.facilation_section{
+    background: #f6f6f6;
+}
+.facilation_section .section_header h2{
+    text-align: left;
+}
+.facilation_button{
+    margin-top: 32px;
+}
+.facilation_button a{
+    background: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+.section_content p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-dark-color);
+    line-height: 20px;
+}
+.rural_section .section_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rural_section .section_header p{
+    width: 50%;
+}
+.section_content_2{
+    margin-top: 40px;
+}
+.section_content_2 .info_state_list .list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.section_content_2 .info_state_list .list img{
+    height: 24px;
+    width: 24px;
+    margin-right: 20px;
+}
+.why_image{
+    margin-top: 40px;
+}
+.why_item{
+    margin-bottom: 50px;
+}
+.why_item_row{
+    display: flex;
+    align-items: center;
+}
+.why_item_row p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-dark-color);
+    line-height: 20px;
+}
+.why_item.reverse{
+    background: #f3f3f3;
+    padding: 40px 0 60px 0;
+    border-radius: 6px;
+}
+.why_item.reverse .why_item_row{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.why_item .why_content{
+    padding-top: 40px;
+}
+@media screen and (max-width: 992px){
+    .rural_section .section_header p{
+        width: 100%;
+    }
+    .facilation_image{
+        margin-top: 50px;
+    }
+    .why_item.reverse{
+        background: #fff;
+        margin: 0;
+    }
+    .why_item{
+        margin-bottom: 0px;
+    }
+    .why_agency_nurse_section{
+        padding: 0;
+    }
+    .why_agency_nurse_section .why_content{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .why_agency_nurse_section .why_content h3{
+        font-size: 20px;
+    }
+}
+/* =================  Registered Nurses and Midwives Page css ends  ================================= 
+==================================================================================== */
+
 
