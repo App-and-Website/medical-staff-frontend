@@ -296,6 +296,9 @@ a, p, span, div, section, ul, li, ol{
     display: block;
     margin-top: 0; 
 }
+.dropdown-item:active {
+    background-color: var(--primary-color);
+ }
 /* ====================== Header css ends ========================= */
 
 
