@@ -288,6 +288,9 @@ a, p, span, div, section, ul, li, ol{
         align-items: flex-start;
         padding-bottom: 25px;
     }
+    #navbarDropdown {
+        pointer-events: none;
+    }
 }
 .dropdown:hover .dropdown-menu {
     display: block;
