@@ -2063,3 +2063,28 @@ background: #ECECEC;
 ==================================================================================== */
 
 
+/* ================= Eductaion and Training Page css ends  ================================= 
+==================================================================================== */
+.iso_section_row .image{
+    margin-top: 60px;
+}
+.iso_section_row2{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.iso_section p{
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-dark-color);
+}
+.iso_section .info_state_list .list{
+    margin-bottom: 16px;
+}
+@media screen and (max-width: 768px){
+    .image_edu2{
+        margin-top: 30px;
+    }
+}
+
