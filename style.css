@@ -2148,7 +2148,7 @@ background: #ECECEC;
     justify-content: space-between;
 }
 .vc_bonus_section{
-    background: #d9d9d9;
+    background: #f3f3f3;
 }
 .vacch3 h3{
     font-weight: 700;
@@ -2161,4 +2161,24 @@ background: #ECECEC;
 
 
 
+/* ================= Allied Health Page css starts  ================================= 
+==================================================================================== */
+.allied_service{
+    background: #f3f3f3;
+}
+.allied_service_text p{
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--font-type-one);
+    font-size: var(--font-size-medium);
+    color: var(--text-dark-color);
+}
+.allied_service_text p a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.allied_service_text p a:hover{
+    opacity: 0.8;
+}
 
