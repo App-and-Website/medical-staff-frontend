@@ -2137,3 +2137,28 @@ background: #ECECEC;
 /* ================= Expectation Page css ends  ================================= 
 ==================================================================================== */
 
+
+/* ================= Vaccination Page css starts  ================================= 
+==================================================================================== */
+.vc_bonus_section img{
+    border-radius: 18px;
+}
+.vaccination_row{
+    display: flex;
+    justify-content: space-between;
+}
+.vc_bonus_section{
+    background: #d9d9d9;
+}
+.vacch3 h3{
+    font-weight: 700;
+}
+.vacch3 p{
+    font-weight: 600;
+}
+/* ================= Vaccination Page css ends  ================================= 
+==================================================================================== */
+
+
+
+
