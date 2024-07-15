@@ -2126,6 +2126,9 @@ background: #ECECEC;
     flex-direction: row-reverse;
     padding-left: 20px;
 }
+.code_of_conduct_section p{
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 768px){
     .expectation_row.reverse{
         padding-left: 0px;
