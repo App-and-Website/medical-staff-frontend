@@ -2312,3 +2312,47 @@ background: #ECECEC;
 ==================================================================================== */
 
 
+/* ================= Useful Links Page css starts  ================================= 
+==================================================================================== */
+.useful_links_section{
+    background: #f3f3f3;
+}
+.main_row_links{
+    display: flex;
+    justify-content: center;
+}
+.wrap_links{
+    width: fit-content;
+}
+.wrap_links .link{
+    display: grid;
+    grid-template-columns: 420px auto;
+    margin-bottom: 6px;
+}
+.wrap_links .link p{
+   font-family: var(--font-type-one);
+   color: var(--text-dark-color);
+   font-size: var(--large-font-size);
+   font-weight: 500;
+}
+.wrap_links .link a{
+    font-family: var(--font-type-one);
+    color: var(--text-dark-color);
+    font-size: var(--large-font-size);
+    font-weight: 500;
+ }
+ .wrap_links .link a:hover{
+    color: var(--primary-color);
+ }
+ @media screen and (max-width: 768px){
+    .wrap_links .link{
+        grid-template-columns: auto;
+        margin-bottom: 20px;
+    }
+}
+/* ================= Useful Links Page css ends  ================================= 
+==================================================================================== */
+
+
+
+
