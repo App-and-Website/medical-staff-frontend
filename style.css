@@ -2244,5 +2244,71 @@ background: #ECECEC;
         height: 36px;
     }
 }
+/* ================= Netbook Login Page css ends  ================================= 
+==================================================================================== */
+
+
+/* ================= Apply Now Page css starts  ================================= 
+==================================================================================== */
+.apply_now_form h2{
+   font-weight: 600;
+   font-family: var(--font-type-one);
+   color: var(--text-dark-color);
+   margin-bottom: 20px;
+}
+.apply_now_form .col{
+    display: grid;
+    grid-template-columns: 260px auto;
+    align-items: center;
+}
+.apply_now_form .col span{
+    font-family: var(--font-type-one);
+   color: var(--text-dark-color);
+   font-size: var(--large-font-size);
+}
+.apply_now_form .col_inner .inner_item{
+    display: grid;
+    grid-template-columns: 160px auto;
+    align-items: center;
+}
+.apply_now_form .col .star{
+    color: rgb(223, 40, 40);
+}
+.column_text_start{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+.apply_now_form button{
+    margin-top: 25px;
+    background: var(--primary-color);
+    border: none;
+    height: 50px;
+    width: 200px;
+}
+.apply_now_form button:hover{
+    margin-top: 25px;
+    background: var(--primary-color);
+    border: none;
+    opacity: 0.8;
+}
+@media screen and (max-width: 768px){
+    .apply_now_form .col{
+        grid-template-columns: 200px auto;
+    }
+    .apply_now_form .col_inner .inner_item{
+        display: grid;
+        grid-template-columns: 80px auto;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 576px){
+    .apply_now_form .col{
+        grid-template-columns: auto;
+    }
+}
+/* ================= Apply Now Page css ends  ================================= 
+==================================================================================== */
 
 
