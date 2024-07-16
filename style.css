@@ -2354,5 +2354,35 @@ background: #ECECEC;
 ==================================================================================== */
 
 
-
+/* ================= Privacy Policy Page css starts  ================================= 
+==================================================================================== */
+.privacy_policy_section.dark_bg{
+    background: #f3f3f3;
+}
+.privacy_policy_section .list{
+    display: flex;
+    align-items: flex-start!important;
+}
+.privacy_policy_section h4{
+    font-family: var(--font-type-one);
+    color: var(--text-dark-color);
+    font-size: var(--large-font-size2);
+    font-weight: 600;
+}
+.privacy_policy_section p{
+    font-family: var(--font-type-one);
+    color: var(--text-dark-color);
+    font-size: var(--large-font-size);
+}
+@media screen and (max-width: 576px){
+    .privacy_policy_section p{
+        font-size: var(--font-size-medium);
+    }
+    .privacy_policy_section .icon img{
+        height: 20px!important;
+        width: 20px!important;
+    }
+}
+/* ================= Privacy Policy Page css ends  ================================= 
+==================================================================================== */
 
