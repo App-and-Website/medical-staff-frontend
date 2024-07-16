@@ -2181,4 +2181,68 @@ background: #ECECEC;
 .allied_service_text p a:hover{
     opacity: 0.8;
 }
+/* ================= Allied Health Page css ends  ================================= 
+==================================================================================== */
+
+
+/* ================= Netbook Login Page css starts  ================================= 
+==================================================================================== */
+.wrapper_netbook{
+    background: #f3f3f3;
+    border-radius: 6px;
+    padding: 60px 30px 80px 30px;
+}
+.wrapper_netbook h3{
+    text-align: center;
+    font-weight: 600;
+    font-family: var(--font-type-one);
+}
+.login_items{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+.login_items .login_item a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: var(--font-type-one);
+    font-size: var(--large-font-size2);
+    color: var(--text-dark-color);
+    font-weight: 500;
+}
+.login_items .login_item .icon{
+    margin-right: 20px;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+.login_items .login_item .icon img{
+    height: 48px;
+    opacity: 0.8;
+}
+.login_items .login_item:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width: 768px){
+    .login_items{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    .wrapper_netbook{
+        background: #f3f3f3;
+        border-radius: 6px;
+        padding: 40px 15px 50px 15px;
+    }
+    .wrapper_netbook h3{
+        font-size: 20px;
+    }
+    .login_items .login_item .icon img{
+        height: 36px;
+    }
+}
+
 
