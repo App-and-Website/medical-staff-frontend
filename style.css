@@ -2496,9 +2496,13 @@ background: #ECECEC;
 .job_list_head{
     border-bottom: 1px solid #ccc;
 }
-.job_list_head h6{
+.job_list_head h6 a{
     line-height: 8px;
     color: var(--text-color-dark);
+    text-decoration: none;
+}
+.job_list_head h6 a:hover{
+    color: var(--primary-color);
 }
 .job_list_head p{
     font-size: var(--large-font-size);
