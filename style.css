@@ -2386,3 +2386,197 @@ background: #ECECEC;
 /* ================= Privacy Policy Page css ends  ================================= 
 ==================================================================================== */
 
+.relative_div{
+    position: relative;
+}
+.find_job_page_job_filter_top{
+    background: #ccc;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    top: 100%;
+}
+.job_list_row_main{
+    display: grid;
+    grid-template-columns: 280px auto;
+    gap: 25px;
+}
+.find_job_page_job_filter_top .input_item{
+    width: 360px;
+}
+.find_job_page_job_filter_top select{
+    width: 300px!important;
+}
+.find_job_page_job_filter_top .find_job_btn_item{
+    width: auto!important;
+}
+.job_left_filter{
+    background: #f3f3f3;
+    padding: 30px 20px;
+    border-radius: 6px;
+    height: fit-content;
+}
+.job_list_row_main .left_filter_item{
+    background: #fff;
+    border-radius: 4px;
+}
+.left_filter_title {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    border-left: 2px solid var(--primary-color);
+}
+.left_filter_title .icon{
+    margin-right: 20px;
+}
+.left_filter_title .icon img{
+    height: 28px;
+}
+.left_filter_title h6{
+    margin-top: 10px;
+}
+.job_filters{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.filter_top{
+    background: #f3f3f3;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.filter_top .wrap{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+.filter_top select{
+    border: none;
+}
+.filter_top select{
+    color: #444;
+    background: #f3f3f3;
+    font-weight: 500;
+    font-size: var(--font-size-small);
+}
+.filter_top span{
+    font-size: var(--font-size-small);
+    font-weight: 500;
+}
+.filter_top .sort{
+    display: flex;
+    justify-content: flex-end;
+}
+.job_list_wrapper{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.job_list_item{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+.job_list_wrapper .job_list_image{
+    padding: 20px;
+}
+.job_list_image{
+    max-width: 120px;
+}
+.job_list_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.job_list_content{
+    border-left: 1px solid #ccc;
+    padding: 20px;
+}
+.job_list_head{
+    border-bottom: 1px solid #ccc;
+}
+.job_list_head h6{
+    line-height: 8px;
+    color: var(--text-color-dark);
+}
+.job_list_head p{
+    font-size: var(--large-font-size);
+    padding-bottom: 8px;
+    color: var(--text-grey-color);
+}
+.job_list_content_bottom{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 10px;
+}
+.jblileft{
+    display: flex;
+    gap: 25px;
+}
+.jblileft .icon{
+    display: flex;
+    align-items: center;
+}
+.jblileft .icon img{
+    height: 14px;
+    padding-right: 5px;
+}
+.jblileft p{
+    font-size: var(--font-size-small);
+}
+.jbliright{
+    display: flex;
+    justify-content: right;
+}
+.jbliright p{
+    background: var(--primary-color);
+    padding: 4px 10px;
+    font-size: var(--font-size-small);
+    color: #f3f3f3;
+    border-radius: 4px;
+}
+@media screen and (max-width: 1200px){
+    .find_job_page_job_filter_top .input_item{
+        width: 280px;
+    }
+    .find_job_page_job_filter_top select{
+        width: 220px!important;
+    }
+}
+@media screen and (max-width: 992px){
+    .find_job_page_job_filter_top{
+        margin-top: 48px;
+        border-radius: 0;
+    } 
+    .job_list_row_main{
+       display: flex;
+       flex-direction: column-reverse;
+       gap: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    .find_job_page_job_filter_top .find_jobs_button a{
+        background: var(--primary-color);
+        border: none;
+    } 
+    .job_list_section{
+        padding-top: 0;
+        margin-top: -50px;
+    }
+    .filter_top .sort{
+        display: none;
+    }
+    .filter_top .wrap{
+        grid-template-columns: 100%;
+    }
+    .find_job_page_job_filter_top .input_item{
+        width: auto;
+    }
+    .job_list_wrapper{
+        grid-template-columns: 100%;
+    }
+    .job_list_image{
+        max-width: 100%;
+    }
+}
