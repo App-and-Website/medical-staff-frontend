@@ -497,6 +497,16 @@ a, p, span, div, section, ul, li, ol{
     .service_title h5{
         line-height: 12px!important;
     }
+    .service_item{
+        margin-bottom: 15px;
+     }
+     .service_title h5 a{
+        font-size: var(--font-size-small);
+    }
+    .service_title{
+        bottom: -10px;
+        left: 5px;
+    }
 }
 /* ====================== Services css ends ========================= */
 
